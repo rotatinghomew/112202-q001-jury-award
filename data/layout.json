@@ -1,0 +1,47 @@
+{
+  "works.tsv": [
+    "work",
+    "group",
+    "kind",
+    "stage"
+  ],
+  "scores.tsv": [
+    "record",
+    "judge",
+    "work",
+    "stage",
+    "dim",
+    "points",
+    "rev",
+    "received"
+  ],
+  "conflicts.tsv": [
+    "case",
+    "judge",
+    "work",
+    "stage",
+    "dim",
+    "received"
+  ],
+  "slots.tsv": [
+    "award",
+    "group",
+    "seats",
+    "tie",
+    "excludes"
+  ],
+  "notices.tsv": [
+    "notice",
+    "award",
+    "work",
+    "received"
+  ],
+  "capacity.tsv": [
+    "judge",
+    "fit",
+    "groups",
+    "slot",
+    "max",
+    "deadline"
+  ]
+}
