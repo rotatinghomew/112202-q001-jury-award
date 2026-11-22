@@ -1,0 +1,3 @@
+record	event	received	kind	competing_event
+R1	E12	65	void	E13
+R2	E16	67	void	-

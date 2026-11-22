@@ -1,4 +1,4 @@
-# 评审参照资料
+# 体验券与跨馆兑现记录
 
 `data/` 为离线合成业务记录。文件均为 UTF-8 的 Tab 分隔表，首行是列名，逗号分隔集合，`-` 表示不适用，`?` 表示未取得，不把它们当作零。标识符只在各表声明的归属范围内有效。
 
@@ -14,10 +14,11 @@ python3 -m unittest discover -s tests
 前一条命令只检查表头和记录形状并显示行数。可传入另一目录读取同格式记录。当前没有分析、决策或业务处理结果。
 
 ## 输入表
-
-- `works.tsv`：P 为专业组，U 为高校组；anchor 是标尺作品，不参与获奖，both 表示两组共用。 列顺序为 `work`、`group`、`kind`、`stage`。
-- `scores.tsv`：每条为十分制（整数 0 到 10）的一维评分。NAS 为缺席。judge/work/stage/dim 一致的较高 rev 替代低版本，received 是当届顺序号。 列顺序为 `record`、`judge`、`work`、`stage`、`dim`、`points`、`rev`、`received`。
-- `conflicts.tsv`：自收到起此前的相同 judge/work/stage/dim 评分不可使用；* 表示该范围内所有维度。 列顺序为 `case`、`judge`、`work`、`stage`、`dim`、`received`。
-- `slots.tsv`：award 的适用组别、席位数、同分处理及不能由同一作品兼得的奖项。hold 表示遇边界并列暂缓。 列顺序为 `award`、`group`、`seats`、`tie`、`excludes`。
-- `notices.tsv`：已经发出的通知及顺序号，不能当草稿。 列顺序为 `notice`、`award`、`work`、`received`。
-- `capacity.tsv`：可补评的维度、可服务组别、具体场次、可承担的评分条目数与截止场次。 列顺序为 `judge`、`fit`、`groups`、`slot`、`max`、`deadline`。
+- `vouchers.tsv`：日为相对演练起点的天数；条款号关联原券可用点和退款条件。 列为 `voucher`、`batch`、`issue`、`expiry`、`original_site`、`terms`。
+- `terms.tsv`：退款从发券后 refund_day 天开放；hold_days 为顾客接受改约的最长等待；金额单位分。 列为 `terms`、`sites`、`hold_days`、`refund_day`、`refundable`、`fulfil_cost`。
+- `actions.tsv`：同一预约以 slot 和券号关联；received 是当时收到日期；以追加订正表确认重复竞争记录。 列为 `event`、`voucher`、`happened`、`received`、`kind`、`party`、`site`、`slot`。
+- `rectifications.tsv`：void 表示撤销被指向的重复记录，不能改原记录收件日。 列为 `record`、`event`、`received`、`kind`、`competing_event`。
+- `pause.tsv`：结束日不含；extend 说明对 segment 发券批顺延天数，同一批记录可以跨点。 列为 `site`、`start`、`end`、`extend`、`segment`。
+- `slots.tsv`：sealed 是签准名额中的锁定名额；历史场次也列在名额表内。 列为 `slot`、`site`、`day`、`capacity`、`sealed`。
+- `closures.tsv`：as_of 是作出方案时资料截点；coverage 是准备金目标覆盖比例；结算周从 week_start 顺延七天。 列为 `date`、`site`、`as_of`、`coverage`、`week_start`。
+- `approved.tsv`：既有签准记录为外部事实，金额单位分；支付、保留及改约指令分别标记。 列为 `approval`、`voucher`、`signed`、`operation`、`destination`、`amount`、`settlement_week`。

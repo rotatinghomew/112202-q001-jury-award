@@ -1,0 +1,4 @@
+site	start	end	extend	segment
+A	10	15	5	B1
+A	47	51	4	B2
+C	14	17	3	B1

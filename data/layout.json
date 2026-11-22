@@ -1,47 +1,65 @@
 {
-  "works.tsv": [
-    "work",
-    "group",
+  "vouchers.tsv": [
+    "voucher",
+    "batch",
+    "issue",
+    "expiry",
+    "original_site",
+    "terms"
+  ],
+  "terms.tsv": [
+    "terms",
+    "sites",
+    "hold_days",
+    "refund_day",
+    "refundable",
+    "fulfil_cost"
+  ],
+  "actions.tsv": [
+    "event",
+    "voucher",
+    "happened",
+    "received",
     "kind",
-    "stage"
+    "party",
+    "site",
+    "slot"
   ],
-  "scores.tsv": [
+  "rectifications.tsv": [
     "record",
-    "judge",
-    "work",
-    "stage",
-    "dim",
-    "points",
-    "rev",
-    "received"
+    "event",
+    "received",
+    "kind",
+    "competing_event"
   ],
-  "conflicts.tsv": [
-    "case",
-    "judge",
-    "work",
-    "stage",
-    "dim",
-    "received"
+  "pause.tsv": [
+    "site",
+    "start",
+    "end",
+    "extend",
+    "segment"
   ],
   "slots.tsv": [
-    "award",
-    "group",
-    "seats",
-    "tie",
-    "excludes"
-  ],
-  "notices.tsv": [
-    "notice",
-    "award",
-    "work",
-    "received"
-  ],
-  "capacity.tsv": [
-    "judge",
-    "fit",
-    "groups",
     "slot",
-    "max",
-    "deadline"
+    "site",
+    "day",
+    "capacity",
+    "sealed"
+  ],
+  "closures.tsv": [
+    "date",
+    "site",
+    "as_of",
+    "coverage",
+    "week_start"
+  ],
+  "approved.tsv": [
+    "approval",
+    "voucher",
+    "signed",
+    "operation",
+    "destination",
+    "amount",
+    "settlement_week"
   ]
 }

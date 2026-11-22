@@ -1,0 +1,5 @@
+approval	voucher	signed	operation	destination	amount	settlement_week
+AP1	V9	60	rebook	S2	2400	64
+AP2	V11	60	rebook	S3	2400	64
+AP3	V13	60	refund_due	-	3900	71
+AP4	V14	60	reserve	-	4200	71

@@ -1,5 +1,12 @@
-award	group	seats	tie	excludes
-special	both	1	hold	gold-P,gold-U
-gold-P	P	1	hold	special
-gold-U	U	1	hold	special
-comm-P	P	1	hold	-
+slot	site	day	capacity	sealed
+H1	B	18	8	0
+H2	A	17	8	0
+H3	C	31	7	0
+H4	B	13	7	0
+H5	B	33	7	0
+S1	A	66	3	2
+S2	B	67	4	2
+S3	C	69	2	1
+S4	C	72	3	0
+S5	B	75	2	2
+S6	B	79	3	0
