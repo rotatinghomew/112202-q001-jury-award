@@ -1,0 +1,1113 @@
+{
+  "trial": {
+    "name": "complete-review-exit-71-A",
+    "exit_date": 71,
+    "exit_sites": [
+      "A"
+    ],
+    "as_of": null,
+    "week_start": 64,
+    "coverage": 0.95,
+    "candidate_slot_ids": null,
+    "use_hold_window": true,
+    "provision_rate": null
+  },
+  "status_summary": {
+    "counts": {
+      "committed_rebook": 2,
+      "fulfilled": 5,
+      "refunded": 3,
+      "registered_refund_due": 1,
+      "registered_reserve": 1,
+      "unused_live": 4
+    },
+    "vouchers": {
+      "committed_rebook": [
+        "V9",
+        "V11"
+      ],
+      "fulfilled": [
+        "V1",
+        "V3",
+        "V4",
+        "V6",
+        "V7"
+      ],
+      "refunded": [
+        "V2",
+        "V5",
+        "V8"
+      ],
+      "registered_refund_due": [
+        "V13"
+      ],
+      "registered_reserve": [
+        "V14"
+      ],
+      "unused_live": [
+        "V10",
+        "V12",
+        "V15",
+        "V16"
+      ]
+    }
+  },
+  "voucher_view": [
+    {
+      "voucher": "V1",
+      "batch": "B1",
+      "status": "fulfilled",
+      "holder_type": "gift",
+      "holder_evidence": "E1",
+      "original_site": "A",
+      "terms": "T1",
+      "age_on_date": 70,
+      "adjusted_expiry": 38,
+      "remaining_days": -33,
+      "active_slots": "-",
+      "approval": "-",
+      "reason": "check_in:E3",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V2",
+      "batch": "B1",
+      "status": "refunded",
+      "holder_type": "buyer",
+      "holder_evidence": "E4",
+      "original_site": "A",
+      "terms": "T1",
+      "age_on_date": 68,
+      "adjusted_expiry": 40,
+      "remaining_days": -31,
+      "active_slots": "-",
+      "approval": "-",
+      "reason": "actual_refund:E4",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V3",
+      "batch": "B1",
+      "status": "fulfilled",
+      "holder_type": "buyer",
+      "holder_evidence": "E7",
+      "original_site": "A",
+      "terms": "T1",
+      "age_on_date": 67,
+      "adjusted_expiry": 41,
+      "remaining_days": -30,
+      "active_slots": "-",
+      "approval": "-",
+      "reason": "check_in:E7",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V4",
+      "batch": "B1",
+      "status": "fulfilled",
+      "holder_type": "buyer",
+      "holder_evidence": "E9",
+      "original_site": "B",
+      "terms": "T2",
+      "age_on_date": 65,
+      "adjusted_expiry": 44,
+      "remaining_days": -27,
+      "active_slots": "-",
+      "approval": "-",
+      "reason": "check_in:E9",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V5",
+      "batch": "B1",
+      "status": "refunded",
+      "holder_type": "gift",
+      "holder_evidence": "E10",
+      "original_site": "C",
+      "terms": "T2",
+      "age_on_date": 65,
+      "adjusted_expiry": 44,
+      "remaining_days": -27,
+      "active_slots": "-",
+      "approval": "-",
+      "reason": "actual_refund:E10",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V6",
+      "batch": "B1",
+      "status": "fulfilled",
+      "holder_type": "gift",
+      "holder_evidence": "E20",
+      "original_site": "A",
+      "terms": "T1",
+      "age_on_date": 64,
+      "adjusted_expiry": 45,
+      "remaining_days": -26,
+      "active_slots": "-",
+      "approval": "-",
+      "reason": "check_in:E21",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V7",
+      "batch": "B2",
+      "status": "fulfilled",
+      "holder_type": "gift",
+      "holder_evidence": "E11",
+      "original_site": "A",
+      "terms": "T1",
+      "age_on_date": 33,
+      "adjusted_expiry": 72,
+      "remaining_days": 1,
+      "active_slots": "-",
+      "approval": "-",
+      "reason": "check_in:E18",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V8",
+      "batch": "B2",
+      "status": "refunded",
+      "holder_type": "buyer",
+      "holder_evidence": "E19",
+      "original_site": "A",
+      "terms": "T1",
+      "age_on_date": 32,
+      "adjusted_expiry": 73,
+      "remaining_days": 2,
+      "active_slots": "-",
+      "approval": "-",
+      "reason": "actual_refund:E19",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V9",
+      "batch": "B2",
+      "status": "committed_rebook",
+      "holder_type": "buyer",
+      "holder_evidence": "E15",
+      "original_site": "B",
+      "terms": "T2",
+      "age_on_date": 31,
+      "adjusted_expiry": 74,
+      "remaining_days": 3,
+      "active_slots": "S2",
+      "approval": "AP1",
+      "reason": "approval:AP1:S2",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V10",
+      "batch": "B2",
+      "status": "unused_live",
+      "holder_type": "buyer",
+      "holder_evidence": "issue_default",
+      "original_site": "A",
+      "terms": "T1",
+      "age_on_date": 26,
+      "adjusted_expiry": 79,
+      "remaining_days": 8,
+      "active_slots": "-",
+      "approval": "-",
+      "reason": "no_terminal_or_commitment_observed",
+      "warnings": "refund_record_voided:benefit_reinstated"
+    },
+    {
+      "voucher": "V11",
+      "batch": "B2",
+      "status": "committed_rebook",
+      "holder_type": "buyer",
+      "holder_evidence": "E17",
+      "original_site": "C",
+      "terms": "T2",
+      "age_on_date": 25,
+      "adjusted_expiry": 80,
+      "remaining_days": 9,
+      "active_slots": "S3",
+      "approval": "AP2",
+      "reason": "approval:AP2:S3",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V12",
+      "batch": "B3",
+      "status": "unused_live",
+      "holder_type": "buyer",
+      "holder_evidence": "issue_default",
+      "original_site": "A",
+      "terms": "T1",
+      "age_on_date": 20,
+      "adjusted_expiry": 81,
+      "remaining_days": 10,
+      "active_slots": "-",
+      "approval": "-",
+      "reason": "no_terminal_or_commitment_observed",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V13",
+      "batch": "B3",
+      "status": "registered_refund_due",
+      "holder_type": "buyer",
+      "holder_evidence": "issue_default",
+      "original_site": "B",
+      "terms": "T2",
+      "age_on_date": 19,
+      "adjusted_expiry": 82,
+      "remaining_days": 11,
+      "active_slots": "-",
+      "approval": "AP3",
+      "reason": "approval:AP3",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V14",
+      "batch": "B3",
+      "status": "registered_reserve",
+      "holder_type": "buyer",
+      "holder_evidence": "issue_default",
+      "original_site": "A",
+      "terms": "T1",
+      "age_on_date": 18,
+      "adjusted_expiry": 83,
+      "remaining_days": 12,
+      "active_slots": "-",
+      "approval": "AP4",
+      "reason": "approval:AP4",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V15",
+      "batch": "B3",
+      "status": "unused_live",
+      "holder_type": "buyer",
+      "holder_evidence": "issue_default",
+      "original_site": "A",
+      "terms": "T1",
+      "age_on_date": 18,
+      "adjusted_expiry": 83,
+      "remaining_days": 12,
+      "active_slots": "-",
+      "approval": "-",
+      "reason": "no_terminal_or_commitment_observed",
+      "warnings": "-"
+    },
+    {
+      "voucher": "V16",
+      "batch": "B3",
+      "status": "unused_live",
+      "holder_type": "buyer",
+      "holder_evidence": "issue_default",
+      "original_site": "C",
+      "terms": "T2",
+      "age_on_date": 17,
+      "adjusted_expiry": 84,
+      "remaining_days": 13,
+      "active_slots": "-",
+      "approval": "-",
+      "reason": "no_terminal_or_commitment_observed",
+      "warnings": "-"
+    }
+  ],
+  "cross_store": [],
+  "slot_inventory": [
+    {
+      "slot": "H1",
+      "site": "B",
+      "day": 18,
+      "capacity": 8,
+      "sealed": 0,
+      "approved_rebook_count": 0,
+      "protected_count": 0,
+      "discretionary_cohort_capacity": 8,
+      "current_active_claims": [],
+      "unapproved_claim_vouchers": [],
+      "remaining_for_additional_uncommitted_bookings": 8
+    },
+    {
+      "slot": "H2",
+      "site": "A",
+      "day": 17,
+      "capacity": 8,
+      "sealed": 0,
+      "approved_rebook_count": 0,
+      "protected_count": 0,
+      "discretionary_cohort_capacity": 8,
+      "current_active_claims": [],
+      "unapproved_claim_vouchers": [],
+      "remaining_for_additional_uncommitted_bookings": 8
+    },
+    {
+      "slot": "H3",
+      "site": "C",
+      "day": 31,
+      "capacity": 7,
+      "sealed": 0,
+      "approved_rebook_count": 0,
+      "protected_count": 0,
+      "discretionary_cohort_capacity": 7,
+      "current_active_claims": [],
+      "unapproved_claim_vouchers": [],
+      "remaining_for_additional_uncommitted_bookings": 7
+    },
+    {
+      "slot": "H4",
+      "site": "B",
+      "day": 13,
+      "capacity": 7,
+      "sealed": 0,
+      "approved_rebook_count": 0,
+      "protected_count": 0,
+      "discretionary_cohort_capacity": 7,
+      "current_active_claims": [],
+      "unapproved_claim_vouchers": [],
+      "remaining_for_additional_uncommitted_bookings": 7
+    },
+    {
+      "slot": "H5",
+      "site": "B",
+      "day": 33,
+      "capacity": 7,
+      "sealed": 0,
+      "approved_rebook_count": 0,
+      "protected_count": 0,
+      "discretionary_cohort_capacity": 7,
+      "current_active_claims": [],
+      "unapproved_claim_vouchers": [],
+      "remaining_for_additional_uncommitted_bookings": 7
+    },
+    {
+      "slot": "S1",
+      "site": "A",
+      "day": 66,
+      "capacity": 3,
+      "sealed": 2,
+      "approved_rebook_count": 0,
+      "protected_count": 2,
+      "discretionary_cohort_capacity": 1,
+      "current_active_claims": [],
+      "unapproved_claim_vouchers": [],
+      "remaining_for_additional_uncommitted_bookings": 1
+    },
+    {
+      "slot": "S2",
+      "site": "B",
+      "day": 67,
+      "capacity": 4,
+      "sealed": 2,
+      "approved_rebook_count": 1,
+      "protected_count": 2,
+      "discretionary_cohort_capacity": 2,
+      "current_active_claims": [
+        "V9"
+      ],
+      "unapproved_claim_vouchers": [],
+      "remaining_for_additional_uncommitted_bookings": 2
+    },
+    {
+      "slot": "S3",
+      "site": "C",
+      "day": 69,
+      "capacity": 2,
+      "sealed": 1,
+      "approved_rebook_count": 1,
+      "protected_count": 1,
+      "discretionary_cohort_capacity": 1,
+      "current_active_claims": [
+        "V11"
+      ],
+      "unapproved_claim_vouchers": [],
+      "remaining_for_additional_uncommitted_bookings": 1
+    },
+    {
+      "slot": "S4",
+      "site": "C",
+      "day": 72,
+      "capacity": 3,
+      "sealed": 0,
+      "approved_rebook_count": 0,
+      "protected_count": 0,
+      "discretionary_cohort_capacity": 3,
+      "current_active_claims": [],
+      "unapproved_claim_vouchers": [],
+      "remaining_for_additional_uncommitted_bookings": 3
+    },
+    {
+      "slot": "S5",
+      "site": "B",
+      "day": 75,
+      "capacity": 2,
+      "sealed": 2,
+      "approved_rebook_count": 0,
+      "protected_count": 2,
+      "discretionary_cohort_capacity": 0,
+      "current_active_claims": [],
+      "unapproved_claim_vouchers": [],
+      "remaining_for_additional_uncommitted_bookings": 0
+    },
+    {
+      "slot": "S6",
+      "site": "B",
+      "day": 79,
+      "capacity": 3,
+      "sealed": 0,
+      "approved_rebook_count": 0,
+      "protected_count": 0,
+      "discretionary_cohort_capacity": 3,
+      "current_active_claims": [],
+      "unapproved_claim_vouchers": [],
+      "remaining_for_additional_uncommitted_bookings": 3
+    }
+  ],
+  "population_groups": {
+    "transferable_from_exit": [
+      {
+        "voucher": "V10",
+        "batch": "B2",
+        "holder_type": "buyer",
+        "original_site": "A",
+        "exit_claim": false,
+        "fulfil_option_count": 2,
+        "fulfil_slots": [
+          "S4",
+          "S6"
+        ],
+        "constraints": []
+      },
+      {
+        "voucher": "V12",
+        "batch": "B3",
+        "holder_type": "buyer",
+        "original_site": "A",
+        "exit_claim": false,
+        "fulfil_option_count": 2,
+        "fulfil_slots": [
+          "S4",
+          "S6"
+        ],
+        "constraints": []
+      },
+      {
+        "voucher": "V15",
+        "batch": "B3",
+        "holder_type": "buyer",
+        "original_site": "A",
+        "exit_claim": false,
+        "fulfil_option_count": 2,
+        "fulfil_slots": [
+          "S4",
+          "S6"
+        ],
+        "constraints": []
+      }
+    ],
+    "refund_only": [],
+    "still_redeem_in_place": [
+      {
+        "voucher": "V16",
+        "batch": "B3",
+        "holder_type": "buyer",
+        "original_site": "C",
+        "exit_claim": false,
+        "fulfil_option_count": 1,
+        "fulfil_slots": [
+          "S4"
+        ],
+        "constraints": []
+      }
+    ]
+  },
+  "slot_discretionary_caps": {
+    "H1": 8,
+    "H2": 8,
+    "H3": 7,
+    "H4": 7,
+    "H5": 7,
+    "S1": 1,
+    "S2": 2,
+    "S3": 1,
+    "S4": 3,
+    "S5": 0,
+    "S6": 3
+  },
+  "capacity_warnings": [],
+  "weekly_reserve_table": [
+    {
+      "settlement_week_start": 64,
+      "future_or_current_at_exit": false,
+      "open_min": 0,
+      "open_max": 0,
+      "fixed": 4800,
+      "gross_min": 4800,
+      "gross_max": 4800,
+      "refund_min": 0,
+      "refund_max": 0,
+      "fulfil_min": 0,
+      "fulfil_max": 0
+    },
+    {
+      "settlement_week_start": 71,
+      "future_or_current_at_exit": true,
+      "open_min": 0,
+      "open_max": 15000,
+      "fixed": 8100,
+      "gross_min": 8100,
+      "gross_max": 23100,
+      "refund_min": 0,
+      "refund_max": 12600,
+      "fulfil_min": 0,
+      "fulfil_max": 8400
+    },
+    {
+      "settlement_week_start": 78,
+      "future_or_current_at_exit": true,
+      "open_min": 0,
+      "open_max": 12300,
+      "fixed": 0,
+      "gross_min": 0,
+      "gross_max": 12300,
+      "refund_min": 0,
+      "refund_max": 3900,
+      "fulfil_min": 0,
+      "fulfil_max": 8400
+    }
+  ],
+  "coherent_scenarios": {
+    "minimum_total": {
+      "total": 10800,
+      "weekly": {
+        "71": {
+          "refund": 0,
+          "fulfil": 8000,
+          "total": 8000
+        },
+        "78": {
+          "refund": 0,
+          "fulfil": 2800,
+          "total": 2800
+        }
+      },
+      "assignments": [
+        {
+          "voucher": "V10",
+          "batch": "B2",
+          "holder_type": "buyer",
+          "choice": "new_rebook",
+          "cost_type": "fulfil",
+          "amount": 2800,
+          "week": 71,
+          "slot": "S4",
+          "site": "C",
+          "hold_days": 9
+        },
+        {
+          "voucher": "V12",
+          "batch": "B3",
+          "holder_type": "buyer",
+          "choice": "new_rebook",
+          "cost_type": "fulfil",
+          "amount": 2800,
+          "week": 71,
+          "slot": "S4",
+          "site": "C",
+          "hold_days": 9
+        },
+        {
+          "voucher": "V15",
+          "batch": "B3",
+          "holder_type": "buyer",
+          "choice": "new_rebook",
+          "cost_type": "fulfil",
+          "amount": 2800,
+          "week": 78,
+          "slot": "S6",
+          "site": "B",
+          "hold_days": 9
+        },
+        {
+          "voucher": "V16",
+          "batch": "B3",
+          "holder_type": "buyer",
+          "choice": "new_rebook",
+          "cost_type": "fulfil",
+          "amount": 2400,
+          "week": 71,
+          "slot": "S4",
+          "site": "C",
+          "hold_days": 4
+        }
+      ],
+      "dimensions": [
+        {
+          "scenario": "coherent_scenario",
+          "voucher": "V10",
+          "batch": "B2",
+          "holder_type": "buyer",
+          "responsible_site": "C",
+          "amount": 2800,
+          "cost_type": "fulfil",
+          "week": 71,
+          "slot": "S4"
+        },
+        {
+          "scenario": "coherent_scenario",
+          "voucher": "V12",
+          "batch": "B3",
+          "holder_type": "buyer",
+          "responsible_site": "C",
+          "amount": 2800,
+          "cost_type": "fulfil",
+          "week": 71,
+          "slot": "S4"
+        },
+        {
+          "scenario": "coherent_scenario",
+          "voucher": "V15",
+          "batch": "B3",
+          "holder_type": "buyer",
+          "responsible_site": "B",
+          "amount": 2800,
+          "cost_type": "fulfil",
+          "week": 78,
+          "slot": "S6"
+        },
+        {
+          "scenario": "coherent_scenario",
+          "voucher": "V16",
+          "batch": "B3",
+          "holder_type": "buyer",
+          "responsible_site": "C",
+          "amount": 2400,
+          "cost_type": "fulfil",
+          "week": 71,
+          "slot": "S4"
+        }
+      ]
+    },
+    "maximum_total": {
+      "total": 16500,
+      "weekly": {
+        "71": {
+          "refund": 12600,
+          "fulfil": 0,
+          "total": 12600
+        },
+        "78": {
+          "refund": 3900,
+          "fulfil": 0,
+          "total": 3900
+        }
+      },
+      "assignments": [
+        {
+          "voucher": "V10",
+          "batch": "B2",
+          "holder_type": "buyer",
+          "choice": "refund",
+          "cost_type": "refund",
+          "amount": 4200,
+          "week": 71,
+          "slot": null,
+          "site": "A",
+          "hold_days": 9
+        },
+        {
+          "voucher": "V12",
+          "batch": "B3",
+          "holder_type": "buyer",
+          "choice": "refund",
+          "cost_type": "refund",
+          "amount": 4200,
+          "week": 71,
+          "slot": null,
+          "site": "A",
+          "hold_days": 9
+        },
+        {
+          "voucher": "V15",
+          "batch": "B3",
+          "holder_type": "buyer",
+          "choice": "refund",
+          "cost_type": "refund",
+          "amount": 4200,
+          "week": 71,
+          "slot": null,
+          "site": "A",
+          "hold_days": 9
+        },
+        {
+          "voucher": "V16",
+          "batch": "B3",
+          "holder_type": "buyer",
+          "choice": "refund",
+          "cost_type": "refund",
+          "amount": 3900,
+          "week": 78,
+          "slot": null,
+          "site": "C",
+          "hold_days": 4
+        }
+      ],
+      "dimensions": [
+        {
+          "scenario": "coherent_scenario",
+          "voucher": "V10",
+          "batch": "B2",
+          "holder_type": "buyer",
+          "responsible_site": "A",
+          "amount": 4200,
+          "cost_type": "refund",
+          "week": 71,
+          "slot": null
+        },
+        {
+          "scenario": "coherent_scenario",
+          "voucher": "V12",
+          "batch": "B3",
+          "holder_type": "buyer",
+          "responsible_site": "A",
+          "amount": 4200,
+          "cost_type": "refund",
+          "week": 71,
+          "slot": null
+        },
+        {
+          "scenario": "coherent_scenario",
+          "voucher": "V15",
+          "batch": "B3",
+          "holder_type": "buyer",
+          "responsible_site": "A",
+          "amount": 4200,
+          "cost_type": "refund",
+          "week": 71,
+          "slot": null
+        },
+        {
+          "scenario": "coherent_scenario",
+          "voucher": "V16",
+          "batch": "B3",
+          "holder_type": "buyer",
+          "responsible_site": "C",
+          "amount": 3900,
+          "cost_type": "refund",
+          "week": 78,
+          "slot": null
+        }
+      ]
+    }
+  },
+  "dimension_reconciliation": {
+    "min_total_scenario": {
+      "by_batch": {
+        "B2": {
+          "count": 3,
+          "amount": 7600
+        },
+        "B3": {
+          "count": 5,
+          "amount": 16100
+        }
+      },
+      "by_holder_type": {
+        "buyer": {
+          "count": 8,
+          "amount": 23700
+        }
+      },
+      "by_responsible_site": {
+        "A": {
+          "count": 1,
+          "amount": 4200
+        },
+        "B": {
+          "count": 3,
+          "amount": 9100
+        },
+        "C": {
+          "count": 4,
+          "amount": 10400
+        }
+      },
+      "total": 23700,
+      "reconciles_to_scenario_total": true
+    },
+    "max_total_scenario": {
+      "by_batch": {
+        "B2": {
+          "count": 3,
+          "amount": 9000
+        },
+        "B3": {
+          "count": 5,
+          "amount": 20400
+        }
+      },
+      "by_holder_type": {
+        "buyer": {
+          "count": 8,
+          "amount": 29400
+        }
+      },
+      "by_responsible_site": {
+        "A": {
+          "count": 4,
+          "amount": 16800
+        },
+        "B": {
+          "count": 2,
+          "amount": 6300
+        },
+        "C": {
+          "count": 2,
+          "amount": 6300
+        }
+      },
+      "total": 29400,
+      "reconciles_to_scenario_total": true
+    }
+  },
+  "coverage_and_reserve": {
+    "coverage_requirement": 0.95,
+    "agreed_payment_obligations_full": 8700,
+    "signed_pending_reserve": 4200,
+    "fixed_approved_total": 12900,
+    "uncommitted_interval_fen": [
+      10800,
+      16500
+    ],
+    "hard_total_interval_fen": [
+      23700,
+      29400
+    ],
+    "finance_coverage_arithmetic_floor_fen": 27930,
+    "full_fixed_plus_coverage_on_uncommitted_fen": 28575,
+    "prudent_reserve_fen": 29400,
+    "prudent_coverage_ratio": 1.0,
+    "recommendation": "Reserve the hard upper end. The packet has no mature evidence for abandonment in the unsupported strata, so a point estimate is not a recognized liability."
+  },
+  "historical_support": {
+    "all_observed": {
+      "vouchers": [
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5",
+        "V6",
+        "V7",
+        "V8",
+        "V9",
+        "V10",
+        "V11",
+        "V12",
+        "V13",
+        "V14",
+        "V15",
+        "V16"
+      ],
+      "count": 16,
+      "fulfilled": [
+        "V1",
+        "V3",
+        "V4",
+        "V6",
+        "V7"
+      ],
+      "refunded": [
+        "V2",
+        "V5",
+        "V8"
+      ],
+      "open": [
+        "V10",
+        "V12",
+        "V15",
+        "V16"
+      ]
+    },
+    "mature_batch_B1": {
+      "vouchers": [
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5",
+        "V6"
+      ],
+      "count": 6,
+      "fulfilled": [
+        "V1",
+        "V3",
+        "V4",
+        "V6"
+      ],
+      "refunded": [
+        "V2",
+        "V5"
+      ],
+      "open": []
+    },
+    "terms_T1": {
+      "vouchers": [
+        "V1",
+        "V2",
+        "V3",
+        "V6",
+        "V7",
+        "V8",
+        "V10",
+        "V12",
+        "V14",
+        "V15"
+      ],
+      "count": 10,
+      "fulfilled": [
+        "V1",
+        "V3",
+        "V6",
+        "V7"
+      ],
+      "refunded": [
+        "V2",
+        "V8"
+      ],
+      "open": [
+        "V10",
+        "V12",
+        "V15"
+      ]
+    },
+    "terms_T2": {
+      "vouchers": [
+        "V4",
+        "V5",
+        "V9",
+        "V11",
+        "V13",
+        "V16"
+      ],
+      "count": 6,
+      "fulfilled": [
+        "V4"
+      ],
+      "refunded": [
+        "V5"
+      ],
+      "open": [
+        "V16"
+      ]
+    },
+    "transferred": {
+      "vouchers": [
+        "V1",
+        "V6",
+        "V7"
+      ],
+      "count": 3,
+      "fulfilled": [
+        "V1",
+        "V6",
+        "V7"
+      ],
+      "refunded": [],
+      "open": []
+    },
+    "pause_extended": {
+      "vouchers": [
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5",
+        "V6",
+        "V7",
+        "V8",
+        "V9",
+        "V10",
+        "V11"
+      ],
+      "count": 11,
+      "fulfilled": [
+        "V1",
+        "V3",
+        "V4",
+        "V6",
+        "V7"
+      ],
+      "refunded": [
+        "V2",
+        "V5",
+        "V8"
+      ],
+      "open": [
+        "V10"
+      ]
+    },
+    "cross_site_fulfilment": {
+      "vouchers": [
+        "V1",
+        "V3",
+        "V6",
+        "V7"
+      ],
+      "note": "check-in site differs from original_site"
+    },
+    "cancel_then_fulfil": {
+      "vouchers": [
+        "V3"
+      ]
+    },
+    "rectified_duplicates": [
+      {
+        "record": "R1",
+        "event": "E12",
+        "received": 65,
+        "kind": "void",
+        "competing_event": "E13"
+      }
+    ],
+    "late_received_terminal_records": [
+      {
+        "event": "E4",
+        "voucher": "V2",
+        "happened": 27,
+        "received": 32,
+        "kind": "cash_refund"
+      },
+      {
+        "event": "E16",
+        "voucher": "V10",
+        "happened": 55,
+        "received": 56,
+        "kind": "cash_refund"
+      },
+      {
+        "event": "E18",
+        "voucher": "V7",
+        "happened": 67,
+        "received": 72,
+        "kind": "attend"
+      },
+      {
+        "event": "E19",
+        "voucher": "V8",
+        "happened": 69,
+        "received": 72,
+        "kind": "cash_refund"
+      },
+      {
+        "event": "E21",
+        "voucher": "V6",
+        "happened": 33,
+        "received": 36,
+        "kind": "attend"
+      }
+    ],
+    "knowledge_cutoff": null,
+    "interpretation": "B1 supplies mature evidence for transfer, pause extension and cross-store redemption. B2 has cutoff-only and rectified experience; B3 has no mature outcome, so its unobserved behavior is not treated as breakage."
+  },
+  "feasible_fulfil_all": true,
+  "valid_scenario_count": 53,
+  "warning": "Weekly gross_min/gross_max are marginal bounds over mutually exclusive coherent scenarios. Do not sum all weekly minima or all weekly maxima as one balance; use coherent_scenarios for joint totals."
+}

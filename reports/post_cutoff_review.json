@@ -1,0 +1,37 @@
+{
+  "from_trial": "exit-71-A-asof-67",
+  "to_trial": "complete-review-exit-71-A",
+  "newly_terminal_actuals": [
+    {
+      "voucher": "V7",
+      "kind": "attend",
+      "event": "E18",
+      "happened": 67,
+      "received": 72,
+      "site": "B",
+      "actual_amount_fen": 2800,
+      "prior_prudent_allowance_fen": 4200,
+      "estimate_variance_fen": -1400
+    },
+    {
+      "voucher": "V8",
+      "kind": "cash_refund",
+      "event": "E19",
+      "happened": 69,
+      "received": 72,
+      "site": "A",
+      "actual_amount_fen": 4200,
+      "prior_prudent_allowance_fen": 4200,
+      "estimate_variance_fen": 0
+    }
+  ],
+  "new_actual_total_fen": 7000,
+  "check_in_settlement_catch_up_fen": 2800,
+  "late_cash_refunds_to_reconcile_fen": 4200,
+  "prior_prudent_allowance_for_these_vouchers_fen": 8400,
+  "favorable_estimate_variance_fen": -1400,
+  "remaining_prudent_reserve_fen": 29400,
+  "lifetime_memo_actuals_plus_registered_and_remaining_upper_fen": 36400,
+  "prior_prudent_reserve_fen": 37800,
+  "rule": "Do not release the old provision merely because the complete file lowers the remaining interval. Post newly received check-in costs as catch-up and reconcile late actual refunds; only the residual variance is an estimate change."
+}

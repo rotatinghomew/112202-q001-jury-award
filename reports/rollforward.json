@@ -1,0 +1,42 @@
+[
+  {
+    "from_trial": "exit-64-A-asof-60",
+    "to_trial": "exit-68-A-asof-65",
+    "reinstated_after_void_or_new_evidence": [],
+    "non_releasable_payment_obligations_fen": 8700,
+    "signed_pending_reserve_fen": 4200,
+    "registered_total_including_reserve_fen": 12900,
+    "uncommitted_interval_change_fen": [
+      0,
+      0
+    ],
+    "catch_up_proposal_week": 64,
+    "catch_up_prudent_fen": 0,
+    "estimate_interval_now_fen": [
+      13600,
+      20700
+    ],
+    "rule": "Approved rebook/refund_due amounts are not released. A voided refund reinstates the voucher; the prudent added amount is a current-week catch-up provision, while lower/upper movement remains an estimate interval."
+  },
+  {
+    "from_trial": "exit-68-A-asof-65",
+    "to_trial": "exit-71-A-asof-67",
+    "reinstated_after_void_or_new_evidence": [
+      "V10"
+    ],
+    "non_releasable_payment_obligations_fen": 8700,
+    "signed_pending_reserve_fen": 4200,
+    "registered_total_including_reserve_fen": 12900,
+    "uncommitted_interval_change_fen": [
+      2800,
+      4200
+    ],
+    "catch_up_proposal_week": 71,
+    "catch_up_prudent_fen": 4200,
+    "estimate_interval_now_fen": [
+      16400,
+      24900
+    ],
+    "rule": "Approved rebook/refund_due amounts are not released. A voided refund reinstates the voucher; the prudent added amount is a current-week catch-up provision, while lower/upper movement remains an estimate interval."
+  }
+]

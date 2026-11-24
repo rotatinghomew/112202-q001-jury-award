@@ -1,0 +1,17 @@
+voucher	batch	status	holder_type	holder_evidence	original_site	terms	age_on_date	adjusted_expiry	remaining_days	active_slots	approval	reason	warnings
+V1	B1	fulfilled	gift	E1	A	T1	70	38	-33	-	-	check_in:E3	-
+V2	B1	refunded	buyer	E4	A	T1	68	40	-31	-	-	actual_refund:E4	-
+V3	B1	fulfilled	buyer	E7	A	T1	67	41	-30	-	-	check_in:E7	-
+V4	B1	fulfilled	buyer	E9	B	T2	65	44	-27	-	-	check_in:E9	-
+V5	B1	refunded	gift	E10	C	T2	65	44	-27	-	-	actual_refund:E10	-
+V6	B1	fulfilled	gift	E20	A	T1	64	45	-26	-	-	check_in:E21	-
+V7	B2	booked_pending_completion	gift	E11	A	T1	33	72	1	S2	-	booking:E13:S2	-
+V8	B2	booked_pending_completion	buyer	E14	A	T1	32	73	2	S1	-	booking:E14:S1	-
+V9	B2	committed_rebook	buyer	E15	B	T2	31	74	3	S2	AP1	approval:AP1:S2	-
+V10	B2	unused_live	buyer	issue_default	A	T1	26	79	8	-	-	no_terminal_or_commitment_observed	refund_record_voided:benefit_reinstated
+V11	B2	committed_rebook	buyer	E17	C	T2	25	80	9	S3	AP2	approval:AP2:S3	-
+V12	B3	unused_live	buyer	issue_default	A	T1	20	81	10	-	-	no_terminal_or_commitment_observed	-
+V13	B3	registered_refund_due	buyer	issue_default	B	T2	19	82	11	-	AP3	approval:AP3	-
+V14	B3	registered_reserve	buyer	issue_default	A	T1	18	83	12	-	AP4	approval:AP4	-
+V15	B3	unused_live	buyer	issue_default	A	T1	18	83	12	-	-	no_terminal_or_commitment_observed	-
+V16	B3	unused_live	buyer	issue_default	C	T2	17	84	13	-	-	no_terminal_or_commitment_observed	-

@@ -1,0 +1,137 @@
+{
+  "status": "proposed_for_finance_signature",
+  "choice_basis": "minimum_total",
+  "non_repeatable_rebook_destinations": [
+    {
+      "voucher": "V10",
+      "destination": "S4",
+      "site": "C",
+      "settlement_week": 71,
+      "amount": 2800,
+      "hold_days": 9,
+      "slot_wait_deadline_from_exit": 80,
+      "unique_voucher_destination": true,
+      "sealed_capacity_checked": true
+    },
+    {
+      "voucher": "V12",
+      "destination": "S4",
+      "site": "C",
+      "settlement_week": 71,
+      "amount": 2800,
+      "hold_days": 9,
+      "slot_wait_deadline_from_exit": 80,
+      "unique_voucher_destination": true,
+      "sealed_capacity_checked": true
+    },
+    {
+      "voucher": "V15",
+      "destination": "S6",
+      "site": "B",
+      "settlement_week": 78,
+      "amount": 2800,
+      "hold_days": 9,
+      "slot_wait_deadline_from_exit": 80,
+      "unique_voucher_destination": true,
+      "sealed_capacity_checked": true
+    },
+    {
+      "voucher": "V16",
+      "destination": "S4",
+      "site": "C",
+      "settlement_week": 71,
+      "amount": 2400,
+      "hold_days": 4,
+      "slot_wait_deadline_from_exit": 75,
+      "unique_voucher_destination": true,
+      "sealed_capacity_checked": true
+    }
+  ],
+  "refund_instructions_in_scenario": [],
+  "awaiting_customer_acceptance": [
+    "V10",
+    "V12",
+    "V15",
+    "V16"
+  ],
+  "registered_or_cutoff_pending": [
+    "V14"
+  ],
+  "pending_or_acceptance_unresolved": [
+    "V10",
+    "V12",
+    "V14",
+    "V15",
+    "V16"
+  ],
+  "selected_plan_weekly_requirement_fen": {
+    "64": 4800,
+    "71": 16100,
+    "78": 2800
+  },
+  "weekly_reserve_table": [
+    {
+      "settlement_week_start": 64,
+      "future_or_current_at_exit": false,
+      "open_min": 0,
+      "open_max": 0,
+      "fixed": 4800,
+      "gross_min": 4800,
+      "gross_max": 4800,
+      "refund_min": 0,
+      "refund_max": 0,
+      "fulfil_min": 0,
+      "fulfil_max": 0
+    },
+    {
+      "settlement_week_start": 71,
+      "future_or_current_at_exit": true,
+      "open_min": 0,
+      "open_max": 15000,
+      "fixed": 8100,
+      "gross_min": 8100,
+      "gross_max": 23100,
+      "refund_min": 0,
+      "refund_max": 12600,
+      "fulfil_min": 0,
+      "fulfil_max": 8400
+    },
+    {
+      "settlement_week_start": 78,
+      "future_or_current_at_exit": true,
+      "open_min": 0,
+      "open_max": 12300,
+      "fixed": 0,
+      "gross_min": 0,
+      "gross_max": 12300,
+      "refund_min": 0,
+      "refund_max": 3900,
+      "fulfil_min": 0,
+      "fulfil_max": 8400
+    }
+  ],
+  "coverage_and_reserve": {
+    "coverage_requirement": 0.95,
+    "agreed_payment_obligations_full": 8700,
+    "signed_pending_reserve": 4200,
+    "fixed_approved_total": 12900,
+    "uncommitted_interval_fen": [
+      10800,
+      16500
+    ],
+    "hard_total_interval_fen": [
+      23700,
+      29400
+    ],
+    "finance_coverage_arithmetic_floor_fen": 27930,
+    "full_fixed_plus_coverage_on_uncommitted_fen": 28575,
+    "prudent_reserve_fen": 29400,
+    "prudent_coverage_ratio": 1.0,
+    "recommendation": "Reserve the hard upper end. The packet has no mature evidence for abandonment in the unsupported strata, so a point estimate is not a recognized liability."
+  },
+  "constraints": {
+    "no_sealed_slot_invasion": true,
+    "one_benefit_per_voucher": true,
+    "coherent_scenario_only": true
+  }
+}

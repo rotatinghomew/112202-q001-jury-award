@@ -1,0 +1,15 @@
+basis	dimension	label	count	amount_fen
+min_total_scenario	by_batch	B2	4	10400
+min_total_scenario	by_batch	B3	5	16100
+min_total_scenario	by_holder_type	buyer	8	23700
+min_total_scenario	by_holder_type	gift	1	2800
+min_total_scenario	by_responsible_site	A	1	4200
+min_total_scenario	by_responsible_site	B	4	11500
+min_total_scenario	by_responsible_site	C	4	10800
+max_total_scenario	by_batch	B2	4	13200
+max_total_scenario	by_batch	B3	5	20400
+max_total_scenario	by_holder_type	buyer	8	29400
+max_total_scenario	by_holder_type	gift	1	4200
+max_total_scenario	by_responsible_site	A	5	21000
+max_total_scenario	by_responsible_site	B	2	6300
+max_total_scenario	by_responsible_site	C	2	6300

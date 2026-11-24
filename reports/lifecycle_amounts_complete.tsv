@@ -1,0 +1,17 @@
+voucher	batch	holder_type	status	responsible_site	recognized_or_signed_amount_fen	basis	contingent_upper_if_uncommitted_fen	reason
+V1	B1	gift	fulfilled	B	2800	actual_check_in_cost	0	check_in:E3
+V2	B1	buyer	refunded	A	4200	actual_paid_refund	0	actual_refund:E4
+V3	B1	buyer	fulfilled	C	2800	actual_check_in_cost	0	check_in:E7
+V4	B1	buyer	fulfilled	B	2400	actual_check_in_cost	0	check_in:E9
+V5	B1	gift	refunded	C	3900	actual_paid_refund	0	actual_refund:E10
+V6	B1	gift	fulfilled	B	2800	actual_check_in_cost	0	check_in:E21
+V7	B2	gift	fulfilled	B	2800	actual_check_in_cost	0	check_in:E18
+V8	B2	buyer	refunded	A	4200	actual_paid_refund	0	actual_refund:E19
+V9	B2	buyer	committed_rebook	B	2400	signed_rebook	0	approval:AP1:S2
+V10	B2	buyer	unused_live	A	0	uncommitted_not_recognized	4200	no_terminal_or_commitment_observed
+V11	B2	buyer	committed_rebook	C	2400	signed_rebook	0	approval:AP2:S3
+V12	B3	buyer	unused_live	A	0	uncommitted_not_recognized	4200	no_terminal_or_commitment_observed
+V13	B3	buyer	registered_refund_due	B	3900	signed_refund_due	0	approval:AP3
+V14	B3	buyer	registered_reserve	A	4200	signed_reserve	0	approval:AP4
+V15	B3	buyer	unused_live	A	0	uncommitted_not_recognized	4200	no_terminal_or_commitment_observed
+V16	B3	buyer	unused_live	C	0	uncommitted_not_recognized	3900	no_terminal_or_commitment_observed
